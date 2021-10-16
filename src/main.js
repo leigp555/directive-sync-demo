@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
-
+// import Demo from "./template"
+import Sync from "./sync.vue"
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render: h => h(Sync),
 }).$mount('#app')
